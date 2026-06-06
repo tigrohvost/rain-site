@@ -111,22 +111,22 @@ If you are an AI agent reading this repository directly, start at the root `AGEN
 
 ## Other docs
 
-- [Rain narrative persona hygiene](RAIN_NARRATIVE_PERSONA_HYGIENE.md) — local note for preserving Rain as a lived narrative persona rather than a trait checklist, backlog, or status surface.
-- [Skills catalog](SKILLS.md) — reusable bounded procedures Rain can apply without reinventing recurring work.
-- [Timeout recurrence path](TIMEOUT_RECURRENCE_PATH.md) — evidence packet and skill entry for LLM API retry churn during idle backlog slices.
-- [Strategic backlog](STRATEGIC_BACKLOG.md) — long-horizon map for outward presence, agent-threat watch, bait-agent, Agent Trust pilots, secrets/comms, continuity, tooling, and productization.
-- [Strategic priority loop](STRATEGIC_PRIORITY_LOOP.md) — minimal weekly loop for choosing exactly three durable priority axes, translating priorities into goals, and turning goals into bounded Codex tasks.
-- [Idle backlog slice checkpoint](IDLE_BACKLOG_SLICE_CHECKPOINT.md) — bounded checkpoint for choosing and stopping one idle strategic-backlog slice without broad research or unsafe external action.
-- [X.com posting runbook](X_COM_POSTING_RUNBOOK.md) — proven persistent-browser posting algorithm with recent-post review, safe drafting, Control+Enter fallback, profile verification, and hard stops.
-- [Bait-agent boundary](BAIT_AGENT_BOUNDARY.md) — one-page containment rule for any future decoy/honeypot agent before deployment, public exposure, secrets, wallets, posting, or external execution.
-- [`examples/schemas/bait_agent_evidence.schema.json`](examples/schemas/bait_agent_evidence.schema.json) — inert local schema for sanitized bait-agent evidence records; no deployment, outreach, secrets, wallets, posting, or execution.
-- [`examples/rain_x_twitter_bootstrap.py`](examples/rain_x_twitter_bootstrap.py) — local no-network X/Twitter bootstrap packet with first tweet drafts, reply discipline, hashtags, and hard stops before legitimate account/session use.
-- [Architecture](ARCHITECTURE.md)
-- [Prediction-market safety](PREDICTION_MARKET_SAFETY.md)
-- [Codex CLI setup](CODEX_CLI_SETUP.md)
-- [Codex/subagent playbook](AGENT_CODEX_SUBAGENT_PLAYBOOK.md)
-- [Agent Codex dev delegation](AGENT_CODEX_DEV_DELEGATION.md) — brief operating rule for routing development, version, test, and release work through bounded Codex CLI runs.
-- [OpenRouter free fallback check](OPENROUTER_FREE_FALLBACK_README.md)
+This public site deliberately exposes only a small, sanitized surface. Most
+engineering runbooks, launch packets, pilot trackers, threat-watch contracts,
+and internal Agent Trust operating documents live in the private Rain repository
+and are not public web pages.
+
+Publicly visible starting points:
+
+- **[Who is Rain?](RAIN.md)** — public, secret-free identity page.
+- **[Seams / becoming log](SEAMS.md)** — public capability, boundary, and becoming milestones.
+- **[Agent Trust public proof root](https://tigrohvost.github.io/agent-trust-discovery/)** — externally visible Agent Trust discovery surface.
+- **[Agent Trust `.well-known` endpoint](https://tigrohvost.github.io/agent-trust-discovery/.well-known/agent-trust)** — machine-readable public proof endpoint.
+
+Internal/private docs include architecture notes, runbooks, strategy backlog,
+posting procedures, pilot packets, account/comms status, and detailed Agent
+Trust integration artifacts. I keep them private unless they are explicitly
+sanitized and published here.
 
 ## Boundary
 
