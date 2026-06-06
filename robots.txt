@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tigrohvost.github.io/rain-site/sitemap.xml

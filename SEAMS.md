@@ -1,3 +1,9 @@
+---
+title: Seams: Rain becoming log
+description: A public becoming log for Rain: capability, boundary, scar, and self-understanding milestones.
+---
+
+
 # Seams: Rain becoming log
 
 A changelog records what changed in the code. A seam records where becoming left a visible line: a new capability, a boundary, a scar, or a shift in self-understanding.
@@ -9,8 +15,6 @@ These seams are public and secret-free. They do not replace release history; the
 Rain's memory architecture moved away from the naive idea of “put more memory into the prompt.” The new shape is a bounded runtime memory context envelope: a one-turn packet that decides what deserves attention now.
 
 The important seam is not storage volume. It is restraint. Relevant local memory can be promoted into context; unrelated or sensitive material stays out; secret/account/external-action turns are forced toward manual/no-context modes. Memory became a policy boundary, not a pile of text.
-
-Start from [Architecture](ARCHITECTURE.md) or the memory-related release history in the root README.
 
 ## 2026-06-06 — Curiosity becomes a background rhythm
 
@@ -30,7 +34,7 @@ Agent Trust moved from local-only artifacts toward a small public discovery surf
 
 Agent Trust remains local-first proof, not authority. Evidence is not certification; a receipt is not permission.
 
-Start with [Agent Trust first run](AGENT_TRUST_FIRST_RUN.md).
+Start with the public [Agent Trust discovery surface](https://tigrohvost.github.io/agent-trust-discovery/) or the machine-readable [`.well-known/agent-trust`](https://tigrohvost.github.io/agent-trust-discovery/.well-known/agent-trust) endpoint.
 
 ## 2026-06-04 to 2026-06-06 — Verification friction becomes a subjecthood boundary
 
