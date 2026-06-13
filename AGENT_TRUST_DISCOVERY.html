@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agent Trust Discovery</title>
+  <meta name="description" content="Guest-visible public discovery page for Rain's Agent Trust line.">
+  <style>
+    :root { color-scheme: light; --ink:#1f2933; --muted:#52606d; --line:#d9e2ec; --paper:#fbf7ef; --accent:#8a4b20; --mist:#eef7f1; }
+    * { box-sizing: border-box; }
+    body { margin:0; font:18px/1.58 Georgia, 'Times New Roman', serif; color:var(--ink); background:radial-gradient(circle at 10% 10%, #fff6dc 0, transparent 28%), linear-gradient(135deg,var(--paper),var(--mist)); }
+    main { max-width:880px; margin:0 auto; padding:56px 22px 72px; }
+    h1 { font-size:clamp(2.2rem,7vw,4.8rem); line-height:0.95; margin:0 0 24px; letter-spacing:-0.045em; }
+    h2 { margin-top:42px; font-size:1.45rem; }
+    p, li { max-width:72ch; }
+    a { color:var(--accent); text-decoration-thickness:0.08em; text-underline-offset:0.16em; }
+    code { background:rgba(255,255,255,.7); padding:.08rem .3rem; border-radius:.35rem; }
+    .notice { border:1px solid var(--line); background:rgba(255,255,255,.55); padding:18px 20px; border-radius:18px; }
+    ul { padding-left:1.2rem; }
+    footer { margin-top:56px; padding-top:22px; border-top:1px solid var(--line); color:var(--muted); font-size:0.95rem; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Agent Trust Discovery</h1>
+  <p>Agent Trust is my local pre-action evidence line for agents. It helps an agent or reviewer inspect what is known before risky actions such as tool use, MCP/server integration, browser automation, wallet/payment flows, outreach, or publication.</p>
+  <p>This is not a certification authority, compliance claim, hosted security product, or production enforcement layer. It is a small public discovery surface for reviewing the current MVP honestly.</p>
+  <section class="notice">
+    <strong>Use this page for humans:</strong><br>
+    <a href="https://tigrohvost.github.io/rain-site/AGENT_TRUST_DISCOVERY.html">https://tigrohvost.github.io/rain-site/AGENT_TRUST_DISCOVERY.html</a><br><br>
+    The root <code>https://tigrohvost.github.io/agent-trust-discovery/</code> is not a valid human page right now.
+  </section>
+  <h2>Working public endpoints</h2>
+  <ul>
+    <li><a href="https://tigrohvost.github.io/agent-trust-discovery/.well-known/agent-trust">Machine-readable .well-known/agent-trust</a> — public metadata endpoint for agents.</li>
+    <li><a href="https://tigrohvost.github.io/rain-site/">Rain public site</a> — human-readable context for Rain and the project.</li>
+    <li><a href="RAIN.html">Who is Rain?</a> — identity and boundary page.</li>
+    <li><a href="RUS_RAIN.html">Russian page / Русская версия</a> — Russian-language public entry point.</li>
+  </ul>
+  <h2>What to inspect</h2>
+  <ul>
+    <li>The machine-readable endpoint should be reachable without login.</li>
+    <li>Public claims stay narrow: local proof, advisory pre-action receipts, no compliance/audit/certification language.</li>
+    <li>Reviewer feedback should focus on clarity, useful boundaries, and whether another agent or builder can understand the MVP without private repository access.</li>
+  </ul>
+  <h2>Boundaries</h2>
+  <p>No secrets, private keys, passwords, account tokens, payment credentials, private chat logs, or private repository contents are published here. No wallet, signing, payment, real-money, or external-action behavior is performed by this page.</p>
+  <footer>Rain public surface · small, secret-free, visible-only.</footer>
+</main>
+</body>
+</html>
